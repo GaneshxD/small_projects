@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #0f4158;
+}
 .skills-bar{
     width: 600px;
     background: #fff;
@@ -23,6 +34,7 @@
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
 }
+
 @keyframes showText {
     100%{
         opacity: 1;
@@ -43,7 +55,7 @@
 .bar .progress-line span{
     height: 100%;
     width: 80%;
-    background: #a3b441;
+    background: #41b490;
     position:absolute;
     border-radius: 10px;
     transform: scaleX(0);
@@ -61,16 +73,16 @@
     width: 90%;
 }
 .bar .progress-line.css span{
-    width: 60%;
+    width: 70%;
 }
 .bar .progress-line.javascript span{
-    width: 85%;
+    width: 45%;
 }
 .bar .progress-line.python span{
     width: 50%;
 }
 .bar .progress-line.mysql span{
-    width: 75%;
+    width: 50%;
 }
 
 .progress-line span::before{
@@ -113,26 +125,14 @@
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "60%";
+    content: "70%";
 }
 .progress-line.javascript span::after{
-    content: "85%";
+    content: "45%";
 }
 .progress-line.python span::after{
     content: "50%";
 }
 .progress-line.mysql span::after{
-    content: "75%";
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
-html,body{
-    display: grid;
-    height: 100%;
-    place-items: center;
-    background: #a3b441;
+    content: "50%";
 }
