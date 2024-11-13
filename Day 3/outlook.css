@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+    color: #1b1b1b;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: #dde2d1;
+}
+form{
+    width: 440px;
+    background-color: #fff;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0,.2);
+    padding: 44px;
+}
+.logo{
+    margin-bottom: 4px;
+    
+    width: 115px;
+    
+}
+form h2{
+    font-size: 25px;
+    font-weight: 750;
+    
+}
+.form-group{
+    margin: 0 0 16px;
+}
+form input{
+    padding: 6px 10px 6px 0;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    border-bottom:1px solid #0067b8;
+    width: 100%;
+    font-size: .9rem;
+    
+}
+form p{
+    margin-top: 12px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    
+}
+form a{
+    color: #0067b8;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+form a:hover{
+    color: #000000b3;
+    text-decoration: underline;
+}
+form .first > a span{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000000b3;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 0.2rem;
+}
+form button{
+    display: block;
+    margin-left:auto ;
+    width: 108px;
+    height: 32px;
+    padding: 4px 12px;
+    font-size: 15px;
+    background-color: #0067b8;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form button:hover{
+    background-color: #004b85;
+}
+form button:active{
+    transform: scale(.97);
+}
+/* .forms-container{
+    overflow-x: hidden;
+} */
+.forms{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.first{
+    width: 100%;
+}
+.bottom{
+    width: 440px;
+    background-color: #fff;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .2);
+    padding: 8px 44px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.key{
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+.bottom:hover{
+    background-color: #dde2d1;
+}
