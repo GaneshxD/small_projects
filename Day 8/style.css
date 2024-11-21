@@ -85,13 +85,19 @@ form .fields .input-field{
 
 }
 .btn:hover{
-     transform: translateY(10 10 10 10);
+    transform: translate(42px, 18px, 20px);
+    background-color: #0b5197;
+    box-shadow: 2px 6px 3px #333;
+
+    
+}
+.btn:active{
+    box-shadow: 1px 3px 2px #333;
 }
 
 .btn::before{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(0, 0, 0);
+    size: 100px;
+    background-color: rgb(255, 255, 255);
 }
 form .buttons{
     display: flex;
